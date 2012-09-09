@@ -13,7 +13,7 @@ the framework can include resources likes nibs.
 note:
 =====
 
-Do not create subdirectores (eg Cells Classes etc) and put files there.
+Under BKit, do not create subdirectores (eg Cells Classes etc) and put files there. As tempting as that may be.
 
 During install, in debug, headers keep the path;
 
@@ -23,4 +23,6 @@ But archiving does not;
 
 ./app/Build/Intermediates/ArchiveIntermediates/App/IntermediateBuildFilesPath/UninstalledProducts/BKit.framework/Versions/A/Headers/BKViewController.h
 
-This means BKit.h cannot include the files using either or.
+This means BKit.h cannot include the files using either or. This is
+however one of those things where it'll work sometime and sometimes
+now due to xcode turning with the wind.
