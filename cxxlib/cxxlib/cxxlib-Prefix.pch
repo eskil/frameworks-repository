@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'cxxlib' target in the 'frameworks' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
